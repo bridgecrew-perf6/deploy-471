@@ -19,7 +19,7 @@ beigeBtn.addEventListener('click', () => {
 // beigeBtn.addEventListener(event, callback)
 switchBtn.addEventListener('click', () => {
     if (body.style.backgroundColor === "beige") {
-      body.style.backgroundColor = "black" ;
+      document.body.style.backgroundImage = "url('https://unsplash.com/photos/PbspBt8DOyY')";
     } else {
       body.style.backgroundColor = "beige";
     }
